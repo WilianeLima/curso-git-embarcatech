@@ -1,0 +1,12 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init
+git config user.name "WilianeLima"
+git config user.email "wiliane.lima@alunos.ufersa.edu.br"
+echo "Wiliane Lima - Matrícula: 20251ZL00130041" > dados.txt
+git add dados.txt
+git commit -m "Adiciona arquivo com o nome completo e matricula do curso de git"
+git remote add origin https://github.com/WilianeLima/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
+nano comandos.txt
